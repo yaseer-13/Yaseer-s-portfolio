@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import HeroSection from './components/HeroSection';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import About from './components/About';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	const [cursorX, setCursorX] = useState();
+	const [cursorY, setCursorY] = useState();
+
+	window.addEventListener('mousemove', (e) => {
+		setCursorX(e.pageX);
+		setCursorY(e.pageY);
+	});
+	return (
+		<div className='App'>
+			<HeroSection />
+			<Skills />
+			<Projects />
+			<About />
+			<Contact />
+			<Footer />
+			<div
+				className='cursor'
+				style={{ left: cursorX + 'px', top: cursorY + 'px' }}></div>
+		</div>
+	);
+};
 
 export default App;
