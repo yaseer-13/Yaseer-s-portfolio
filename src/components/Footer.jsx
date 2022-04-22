@@ -11,7 +11,10 @@ const Footer = () => {
 						Created by Yaseer Tasleem
 					</p>
 					<span class='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
-						<a href='https://github.com/yaseer-13' target='_blank'>
+						<a
+							href='https://github.com/yaseer-13'
+							rel='noreferrer'
+							target='_blank'>
 							<FontAwesomeIcon
 								icon={faGithub}
 								className='ml-3 text-gray-400'
@@ -20,6 +23,7 @@ const Footer = () => {
 						</a>
 						<a
 							href='https://www.linkedin.com/in/yaseer-tasleem/'
+							rel='noreferrer'
 							target='_blank'>
 							<FontAwesomeIcon
 								icon={faLinkedin}

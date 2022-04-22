@@ -17,7 +17,10 @@ const Projects = () => {
 					<div className='flex flex-wrap -mx-4 -mb-10 text-center'>
 						<div className='sm:w-1/2 mb-10 px-4 '>
 							<div className='rounded-lg h-76 overflow-hidden '>
-								<a href='https://techill.netlify.app/' target='_blank'>
+								<a
+									href='https://techill.netlify.app/'
+									rel='noreferrer'
+									target='_blank'>
 									<img
 										alt='content'
 										className='object-cover object-center h-full w-full'
@@ -50,6 +53,7 @@ const Projects = () => {
 							<div className='rounded-lg h-76 overflow-hidden'>
 								<a
 									href='https://criptogen.netlify.app/'
+									rel='noreferrer'
 									target='_blank'>
 									<img
 										alt='content'
@@ -91,7 +95,10 @@ const Projects = () => {
 					<div className='flex flex-wrap -mx-4 -mb-10 text-center'>
 						<div className='sm:w-1/2 mb-10 px-4'>
 							<div className='rounded-lg h-76 overflow-hidden'>
-								<a href='https://appcine.netlify.app/' target='_blank'>
+								<a
+									href='https://appcine.netlify.app/'
+									rel='noreferrer'
+									target='_blank'>
 									<img
 										alt='content'
 										className='object-cover object-center h-full w-full'
@@ -127,6 +134,7 @@ const Projects = () => {
 							<div className='rounded-lg h-76 overflow-hidden'>
 								<a
 									href='https://air-stratus.netlify.app/'
+									rel='noreferrer'
 									target='_blank'>
 									<img
 										alt='content'
@@ -167,6 +175,7 @@ const Projects = () => {
 							<div className='rounded-lg h-76 overflow-hidden'>
 								<a
 									href='https://starbucks-comcept.netlify.app/'
+									rel='noreferrer'
 									target='_blank'>
 									<img
 										alt='content'
@@ -195,7 +204,10 @@ const Projects = () => {
 						</div>
 						<div className='sm:w-1/2 mb-10 px-4'>
 							<div className='rounded-lg h-76 overflow-hidden'>
-								<a href='https://physion.netlify.app/' target='_blank'>
+								<a
+									href='https://physion.netlify.app/'
+									rel='noreferrer'
+									target='_blank'>
 									<img
 										alt='content'
 										className='object-cover object-center h-full w-full '
@@ -231,6 +243,7 @@ const Projects = () => {
 							<div className='rounded-lg h-76 overflow-hidden'>
 								<a
 									href='https://vigilant-wright-41cf67.netlify.app/'
+									rel='noreferrer'
 									target='_blank'>
 									<img
 										alt='content'
@@ -266,6 +279,7 @@ const Projects = () => {
 							<div className='rounded-lg h-76 overflow-hidden'>
 								<a
 									href='https://criptogen.netlify.app/'
+									rel='noreferrer'
 									target='_blank'>
 									<img
 										alt='content'
