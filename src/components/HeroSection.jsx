@@ -4,9 +4,10 @@ const HeroSection = () => {
 	return (
 		<>
 			<section className='text-gray-400 bg-gray-900 body-font min-h-screen'>
-				<div className='container mx-auto flex px-5 py-10 items-center justify-center flex-col'>
+				<div className='container mx-auto flex px-5 pt-5 items-center justify-center flex-col'>
 					<img
 						className='lg:w-2/6 md:w-3/6 w-5/6 mb-5 object-cover object-center rounded shadow-lg'
+						alt='human'
 						src={require('./img/human1.png')}
 					/>
 					<div className='text-center lg:w-2/3 w-full'>

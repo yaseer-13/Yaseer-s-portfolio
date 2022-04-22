@@ -31,9 +31,9 @@ const Contact = () => {
 								<h2 className='title-font font-semibold text-white tracking-widest text-xs'>
 									EMAIL
 								</h2>
-								<a href='#' className='text-indigo-400 leading-relaxed'>
+								<p className='text-indigo-400 leading-relaxed'>
 									work.yaseer@gmail.com
-								</a>
+								</p>
 							</div>
 						</div>
 					</div>
