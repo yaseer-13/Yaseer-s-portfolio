@@ -278,7 +278,7 @@ const Projects = () => {
 						<div className='sm:w-1/2 mb-10 px-4'>
 							<div className='rounded-lg h-76 overflow-hidden'>
 								<a
-									href='https://criptogen.netlify.app/'
+									href='https://breathlab.netlify.app/'
 									rel='noreferrer'
 									target='_blank'>
 									<img
